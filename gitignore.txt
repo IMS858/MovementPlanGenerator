@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+venv/
+.venv/
+env/
+
+# Vercel · local CLI artifacts (don't commit project linkage files)
+.vercel/
+
+# Generated outputs · keep examples/ .py and .json committed, but not generated PDFs/JSONs
+examples/*_plan.pdf
+examples/*_program.json
+!examples/example_sarah.py
+!examples/matt_program.json
+
+# Local test artifacts at repo root
+*_plan.pdf
+test_output/
+local_test/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+*.key
